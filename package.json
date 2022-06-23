@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "start": "ts-node src/index.ts",
+    "git:clear": "rm -rf ./.git",
     "build:clean": "rm -rf ./dist/*; rm ./dist/*; mkdir ./dist/logs;",
     "build:views": "cp -r ./src/views ./dist/views;",
     "build:static": "cp -r ./src/static ./dist/static",
